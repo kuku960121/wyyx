@@ -1,20 +1,161 @@
+
+//页面头
 html,body{
   width: 100%;
 }
-.container{
+
+.center{
   width: 1090px;
   margin: 0 auto;
 }
-.container-fluid{
-  width: 100%;
-  min-width: 1090px;
-}
-#header{
-  height: 176px;
-}
-.nav-top{
-  background-color: #333;
-}
-.nav-l{
+.left{
   float: left;
+}
+.right{
+  float: right;
+}
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+#head{
+  border-bottom: #f3f3f3;
+  position: relative;
+  z-index: 2;
+}
+#head .head{
+  background: #333;
+}
+
+#head .left{
+  color: #ccc;
+}
+#head .left a{
+  color: #B4A078 ;
+  line-height: 36px;
+  
+}
+#head .left a:hover{
+  color: #f3f3f3;
+}
+
+#head .head li{
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+#head .head li a{
+  color: #ccc;
+  padding: 0 10px;
+  text-decoration: none;
+  border-left: 1px solid #5c5c5c;
+  line-height: 36px;
+
+}
+#head .head li a.login{
+  border: none;
+}
+
+#head .head li a:hover{
+  color: #f3f3f3;
+}
+
+#head .head .customer{
+  padding-right: 10px;
+  margin-right: 10px;
+  background: url(../img/customer.jpg )no-repeat center right ;
+  
+} 
+#head .head .phone{
+  background: url(../img/phone.jpg) no-repeat center left;
+}
+#head .customer:hover ul{
+  display: block;
+}
+#head .customer ul{
+  position: absolute;
+  text-align: center;
+  border: 1px solid #dddddd;
+  background: #fff;
+  display: none;  
+}
+#head .customer ul li a:hover{
+  color: #B4A078;
+}
+#head .customer ul li a{
+  color: #a2a2a2;
+  border-left: none;
+  padding-bottom: 10px;
+  margin-left: 8px;
+  border-bottom: 1px solid #dddddd;
+}
+ #head .customer ul:before, #head .phone div:before{
+  width: 14px;
+  height:8px;
+  display: block;
+  content: "";
+  background: url(../img/down.jpg) no-repeat;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: -9px;
+  right: 0;
+} 
+#head .phone:hover div{
+  display: block;
+}
+#head .phone div{
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  position: absolute;
+  left: -45px;
+  line-height: 20px;
+  color: #B4A078;
+  text-align: center;
+   display: none;
+
+}
+
+#head .phone img{
+  width: 140px;
+  display: block;
+  margin: 0 auto;
+}
+
+//搜索栏
+.header{
+  box-sizing: border-box;
+  height: 106px;
+  padding-top: 26px;
+  overflow: hidden;
+}
+.header .log{
+  float: left;
+}
+  .header .log h1{
+  text-indent: -9999px;
+}
+.log h1 a{
+  display: block;
+  width: 210px;
+  height: 52px;
+  background: url(../img/icon-yxtop.webp) no-repeat 0 -303px;
+}
+  
+.searchbox{
+  float: left;
+  margin-left: 164px;                     
+} 
+.searchbox .search{
+  width: 440px;
+  height: 36px;
+  border: 1px solid #cc9756;
+  border-radius:  32px 0 0 32px;
+ 
+}
+.searchbox .search .l{
+ width: 30px;
+ background: url(../img/icon-yxtop.webp) no-repeat 0 -518px;
 }

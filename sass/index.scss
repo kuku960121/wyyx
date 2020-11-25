@@ -289,3 +289,43 @@ footer{
   color: #B4A078 ;
   margin-top: 10px;
 }
+
+
+//轮播图
+.wrap{
+  background: #f4f0ea;
+}
+.wrap .main{
+  position: relative;
+  padding: 60px;
+  width: 1424px;
+  height:660px ;
+}
+.wrap .main .main_header{
+  height: 48px;
+  padding-bottom: 20px;
+}
+.main_header h3{
+  float: left;
+  font-weight: 700;
+  font-size: 28px;
+  color: #333;
+  line-height: 1;
+  margin-right: 28px;
+}
+.main_header div{
+  float: left;
+  font-size: 14px;
+  padding-top: 13px;
+}
+
+.eva{
+  position: absolute;
+  width: 345px;
+  height: 186px;
+  padding: 20px 15px;
+  border:1px solid red;
+  background-color: red;
+  bottom: 0px;
+  z-index: 20px;
+}

@@ -296,7 +296,6 @@ footer{
   background: #f4f0ea;
 }
 .wrap .main{
-  position: relative;
   padding: 60px;
   width: 1424px;
   height:660px ;
@@ -318,14 +317,51 @@ footer{
   font-size: 14px;
   padding-top: 13px;
 }
-
-.eva{
-  position: absolute;
-  width: 345px;
-  height: 186px;
-  padding: 20px 15px;
-  border:1px solid red;
-  background-color: red;
-  bottom: 0px;
-  z-index: 20px;
+.swiper-containere {
+  width: 1090px;
+  height: 492px;
 }
+
+
+//甄选家
+.famil{
+  width:1090px;
+  height: 506px;
+}
+
+.famil .famil_header{
+  height: 48px;
+  padding-bottom: 20px;
+}
+.famil_header h3{
+  float: left;
+  font-weight: 700;
+  font-size: 28px;
+  color: #333;
+  line-height: 1;
+  margin-right: 28px;
+}
+.famil_header div{
+  float: left;
+  font-size: 14px;
+  padding-top: 13px;
+}
+.familbox{
+  height: 380px;
+
+}
+.familbox .familimg1{
+  float: left;
+  height: 380px;
+  width: 690px;
+}
+.familbox .familimg2{
+  float: right;
+  height: 380px;
+  width: 390px;
+}
+.familimg2-1{
+  margin-bottom: 12px;
+}
+
+ 

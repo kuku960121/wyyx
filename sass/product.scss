@@ -1,0 +1,44 @@
+#nav{
+    height: 21px;
+    border-bottom: 1px solid #ddd;
+}
+#nav ul li{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+#nav  .padr{
+    margin-right: 27px;
+    border-bottom: 2px solid #cc9756;
+}
+#nav  .padr a{
+    color: #cc9756;
+}
+#nav .padl{
+    margin-left: 27px;
+}
+#nav .pad{
+    padding: 0 26px;
+}
+
+#nav li:hover a{
+    color: #cc9756;
+    border-bottom: 2px solid #cc9756;
+}
+
+.nav2{
+    margin:0 auto;
+    width: 1200px;
+    height: 457px;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+}
+.nav2_name{
+    width: 124px;
+    background: red;
+}
+.nav2_name h4{
+    border-bottom: 1px solid #ddd;
+    height: 35px;
+    width:124px ;
+}

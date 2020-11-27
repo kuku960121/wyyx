@@ -1,3 +1,4 @@
+
 #nav{
     height: 21px;
     border-bottom: 1px solid #ddd;
@@ -27,6 +28,7 @@
 }
 
 .nav2{
+   /*  display: none; */
     margin:0 auto;
     width: 1200px;
     height: 457px;
@@ -34,11 +36,38 @@
     padding: 15px 20px;
 }
 .nav2_name{
+    float: left;
     width: 124px;
-    background: red;
+    margin-right: 30px;
 }
 .nav2_name h4{
     border-bottom: 1px solid #ddd;
     height: 35px;
     width:124px ;
+    line-height: 35px;
+    margin-bottom: 4px;
+}
+.nav2_name ul li{
+    margin-top: 15px;
+    width:124px;
+    height: 38px;
+}
+.nav2_name ul li i{
+    display: block;
+    float: left;
+    height: 38px;
+    width: 55px;
+}
+.nav2_name ul li i img{
+    padding-left: 13px;;
+}
+
+.nav2_name ul li span{
+    display: block;
+    float: left;
+    height: 38px;
+    width: 69px;
+} 
+.nav2_name ul li span:hover a{
+    color: #cc9756;;
 }
